@@ -1,0 +1,231 @@
+/* Paletas de Cores */
+:root {
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --orange: #fd7e14;
+    --teal: #20c997;
+    --white: #fff;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+iframe{
+    align-items: center;
+    margin: 3%;
+    border: none;
+    height: 600px;
+}
+
+/* configuração newsletter */
+.newspai{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.newspai.mostrar{
+    display: flex;
+}
+
+@keyframes news {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.mostrar .newsfilho{
+animation: news .5s;
+}
+
+.newsfilho{
+    background: #f8f9fa;
+    border: 10px solid #17a2b8;
+    box-shadow: 0 0 0 10px #f8f9fa;
+    width: 40%;
+    min-width: 300px;
+    padding: 40px;
+    position: relative;
+}
+.textonews{
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#emailnews{
+    color: white;
+    background-color: #848e97; 
+    width: 90%;
+    display: block;
+    border: whitesmoke;
+    border-radius: 10px;
+}
+
+#emailnews:hover {
+    background-color:lavenderblush;
+    color:black;
+}
+
+#cadastrar{
+    display: inline-block;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: ridge 2px #f8f9fa;
+}
+
+#fecharnews{
+    border: none;
+    border-radius: 50%;
+    border-radius: 10px;
+}
+
+
+
+
+/* Configuração Geral */
+html, body{
+    overflow-x: hidden;
+    background-color: var(--white);
+}
+
+.navbar{
+    background-color: #202124;
+}
+
+.nav-item:hover{
+    background-color:var(--dark);
+    border-radius: 5px;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+.logo,
+.nav-item{
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.main-post{
+    position: relative;
+}
+
+
+.main-post-badges{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.main-post-badges>a{
+    display: block;
+    background-color: var(--dark);
+    color: var(--white);
+    font-size: 0.8rem;
+}
+
+.main-post:hover{
+    transform: scale(1.01);
+}
+
+
+.notice-posts{
+    color: var(--dark);
+}
+
+.blog-post{
+    border: 1px solid gainsboro;
+}
+
+.blog-post img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-post .col-sm-9{
+    border-left: 3px solid var(--dark);
+}
+
+.badge{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.badge > a{
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.blog-post:hover{
+    transform: scale(1.01);
+}
+
+
+
+/* Configuração do Rodapé */
+.rodape{
+    background-color: #202124; 
+    margin-bottom: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.equipe{
+    color: #343a40;
+}
+
+.equipe:hover{
+    color: #202124;
+}
+
+
+
+/* Configuração do Github Pessoal */
+.github-time{
+    color: white;
+}
+.github-time:hover{
+    color: white;
+}
+
+@media (min-width: 950px){
+
+    iframe{
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+        border: none;
+        width: 40%;
+        height: 600px;
+    }    
+
+}
+
+
+

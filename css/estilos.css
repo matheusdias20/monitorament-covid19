@@ -1,0 +1,111 @@
+/* Paletas de Cores */
+:root {
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --orange: #fd7e14;
+    --teal: #20c997;
+    --white: #fff;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+
+/* Configuração Geral */
+html, body{
+    overflow-x: hidden;
+    background: var(--white);
+ 
+}
+
+.navbar{
+    background-color: #202124;
+}
+
+.nav-item:hover{
+    background-color:var(--dark);
+    border-radius: 5px;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+.logo,
+.nav-item{
+    font-weight: bold;
+}
+
+iframe{
+    align-items: center;
+    margin: 3%;
+    border: none;
+    width: 94%;
+    height: 600px;
+}
+
+td:hover{
+    transform: scale(1.1);
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 10px 13px rgba(57, 56, 61, 0.205);
+}
+
+/* Configuração da tabela UF */
+.table{
+    border: 1px solid #DCDCDC;
+    border-radius: 2px; 
+    width: 97vw; 
+    margin: 1vw;
+
+}
+
+form{
+    width: 70vw;
+}
+
+
+/* Configuração do Rodapé */
+.rodape{
+    background-color: #202124; 
+    margin-bottom: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.equipe{
+    color: #343a40;
+}
+
+.equipe:hover{
+    color: #202124;
+}
+
+
+
+/* Configuração do Github Pessoal */
+.github-time{
+    color: white;
+}
+.github-time:hover{
+    color: white;
+}
+
+@media (min-width: 950px){
+
+    iframe{
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+        border: none;
+        width: 40%;
+        height: 600px;
+    }    
+
+}

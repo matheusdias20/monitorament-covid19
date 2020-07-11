@@ -1,0 +1,108 @@
+/* Paletas de Cores */
+:root {
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --orange: #fd7e14;
+    --teal: #20c997;
+    --white: #fff;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+
+/* Configuração Geral */
+html, body{
+    overflow-x: hidden;
+    background-color: var(--white);
+}
+
+strong{
+    color: #343a40;
+}
+
+.navbar{
+    background-color: #202124
+}
+
+.nav-item:hover{
+    background-color: #343a40;
+    border-radius: 5px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+.logo,
+.nav-item{
+    font-weight: bold;
+}
+
+.card{
+    border: 0px;
+}
+
+/* Carrousel */
+.carrousel{
+    height: 300px;
+    margin-top: 3vh;
+}
+
+
+/* Configuração imagem sobre prevenção */
+.img-fluid{
+    width: 90%;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.videoapoio{
+    text-align: center;
+}
+
+iframe{
+    margin-bottom: 3%;
+}
+
+
+.card-img-top:hover{
+    transform: scale(1.1);
+    
+}
+/* Configuração do Rodapé */
+.rodape{
+    background-color: #202124; 
+    margin-bottom: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.github-time{
+    color: white;
+}
+.github-time:hover{
+    color: white;
+}
+
+@media (min-width: 950px){
+
+.carrousel{
+    height: 660px;
+}
+
+
+}
+
+
+@media (min-width: 650px){
+    .carousel-iframe{
+        height: 650px;
+    }
+}
