@@ -12,7 +12,7 @@
 
 ### Site 💻
 
-- [Monitoramento COVID-19](https://player-musica-projeto.netlify.app/)
+- [Monitoramento COVID-19](https://covid-19-projeto.netlify.app/index.html)
 
 ## Linguagens: 🚀
 - HTML
